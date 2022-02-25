@@ -1,0 +1,28 @@
+.rodape{
+    background-color: #d7d7d3;
+    display: flex;
+}
+
+.rodape div {
+   width: 33%;
+   margin: 1.5rem 3rem 1rem 3rem;
+}
+
+.rodape h3 {
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+
+.rodape p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .9rem;
+}
+
+.rodape li {
+    display: flex;
+    line-height: 1.2rem;
+}
+
+.rodape__mapa p {
+    margin-left: .4rem;
+}

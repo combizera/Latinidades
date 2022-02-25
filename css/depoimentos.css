@@ -1,0 +1,28 @@
+.depoimentos {
+    display: flex;
+}
+
+.depoimentos p {
+    color: var(--bege);
+    position: absolute;
+    
+}
+
+.aspas {
+    font-size: 13rem;
+    margin: 300px 1136px 0px 60px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.deco__txt {
+    font-size: 2.2rem;
+    font-style: italic;
+    margin: 410px 425px 0px 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.deco__autor {
+    font-family:'Cookie', 'Times New Roman', Times, serif;
+    margin: 590px 425px 0px 100px;
+    font-size: 1.5rem;
+}

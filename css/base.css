@@ -1,0 +1,43 @@
+:root {
+    --vinho: #6F1D1B;
+    --marrom-terra: #432818;
+    --marrom-fraco: #99582A;
+    --cinza-escurissimo: #1d1e1f;
+    --cinza-clarissimo: #f2f2f2;
+    --bege: #ffe6a7;
+    --salmao: #ff7b69;
+    --titulo: 700
+}
+
+body {
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: var(--titulo);
+    color: var(--vinho);
+}
+
+.btn {
+    border: none;
+    width: 220px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    background-color:var(--vinho);
+    color: var(--cinza-clarissimo);
+
+    box-shadow: 5px 4px 0px var(--cinza-escurissimo);
+    transition: transform 150ms;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: translate(3px, 3px);
+}

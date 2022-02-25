@@ -1,0 +1,25 @@
+.inicio {
+    margin: 50px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicio__txt {
+    width: 415px;
+    line-height: 2.5rem;
+}
+
+.inicio__img {
+    display: flex;
+    width: 312px;
+    height: 312px;
+    margin-right: 20px;
+   /* position: absolute;
+    right: 18%;
+    top: 100px ;
+    a macaquice feita acima foi uma gambiarra para o
+    elemento ficar onde eu queria, porém eu sabia q
+    era uma péssima prática e pedi ajuda ao ramiris, q
+    solucionou o problema*/
+}

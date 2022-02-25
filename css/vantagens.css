@@ -1,0 +1,39 @@
+.vantagens {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.vantagens ul {
+    display: flex;
+    margin-top: 60px;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.vantagens img {
+    width: 150px;
+    height: 150px;
+}
+
+.vantagens div {
+    width: 367px;
+}
+
+.vantagens__titulo {
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    color: var(--cinza-escurissimo);
+    font-weight: 600;
+}
+
+.vantagens__txt {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    color: var(--vinho);
+    padding: 0px 15%;
+}
+
+.vantagens button {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,91 @@
+.orcamento {
+    display: flex;
+}
+
+.orcamento h2 {
+    color: var(--cinza-clarissimo);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 1.4rem;
+}
+
+.orcamento__container {
+    background-color: var(--cinza-escurissimo);
+    width: 50%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.orcamento__txt {
+    font-size: 1.2rem;
+    color: var(--cinza-clarissimo);
+    margin-top: 1rem;
+    margin-left: 100px;
+}
+
+.input__basico {
+    width: 300px;
+    height: 30px;
+    margin-top: .8rem;
+    margin-left: 100px;
+}
+
+.input__grande {
+    width: 300px;
+    height: 90px;
+    margin-top: .8rem;
+    margin-left: 100px;
+}
+
+.orcamento__btn {
+    border: none;
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem 100px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    background-color:var(--vinho);
+    color: var(--cinza-clarissimo);
+
+    box-shadow: 3px 3px 0px var(--cinza-clarissimo);
+    transition: transform 150ms;
+}
+
+.orcamento__btn:hover {
+    transform: scale(1.05);
+}
+
+.orcamento__btn:active {
+    transform: translate(2px, 2px);
+}
+
+.orcamento__container2 {
+    text-align: center;
+    width: 50%;
+}
+
+.orcamento__img {
+    margin-top: 2.2rem;    
+}
+
+.orcamento__container2 li {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+.orcamento__vantagens {
+    font-size: 1.8rem;
+    color: var(--cinza-escurissimo);
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+.orcamento__container2 ul {
+    display: inline-block;
+}

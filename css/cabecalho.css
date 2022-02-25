@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    background-color: var(--vinho);
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    width: 100vw;
+    min-width: 720px;
+    height: 50px;
+    align-items: center;
+    margin-left: 50%;
+    gap: 1.5rem;
+}
+
+.menu a {
+    color: var(--cinza-clarissimo);
+    display: block;
+    padding: .5rem;
+}
